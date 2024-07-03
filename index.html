@@ -6,33 +6,46 @@
     <link rel="stylesheet" href="src/worldClock.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Manta's World Clock</title>
   </head>
   <body>
     <main>
-      <h1>World Clock</h1>
-      <select>
-        <option value="">Select a city</option>
-        <option value="">London</option>
-        <option value="">New York</option>
-        <option value="">Paris</option>
-        <option value="">Milan</option>
-      </select>
+      <div class="container">
+        <h1>World Clock</h1>
+        <select>
+          <option value="">Select a city</option>
+          <option value="">London</option>
+          <option value="">New York</option>
+          <option value="">Paris</option>
+          <option value="">Milan</option>
+        </select>
 
-      <div class="city">
-        <h2>Los Angeles 🇺🇸</h2>
-        <div class="city-date"></div>
-        <div class="city-timezone"></div>
-      </div>
-      <div class="city">
-        <h2>Amsterdam 🇳🇱</h2>
-        <div class="city-date"></div>
-        <div class="city-timezone"></div>
-      </div>
-      <div class="city">
-        <h2>Berlin 🇩🇪</h2>
-        <div class="city-date"></div>
-        <div class="city-timezone"></div>
+        <div class="city">
+          <div>
+            <h2>Los Angeles 🇺🇸</h2>
+            <div class="city-date">308432</div>
+          </div>
+          <div class="city-timezone">
+            328974832
+            <p class="time-periods">AM</p>
+          </div>
+        </div>
+        <div class="city">
+          <h2>Amsterdam 🇳🇱</h2>
+          <div class="city-date"></div>
+          <div class="city-timezone"></div>
+        </div>
+        <div class="city">
+          <h2>Berlin 🇩🇪</h2>
+          <div class="city-date"></div>
+          <div class="city-timezone"></div>
+        </div>
       </div>
     </main>
 
@@ -41,7 +54,7 @@
       <a
         href="https://www.linkedin.com/in/mantas-zvybas-700938254/"
         target="_blank"
-        >Mantas Zvybas</a
+        ">Mantas Zvybas</a
       >
       is on
       <a

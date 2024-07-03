@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(231, 234, 247);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  margin: 0 0 5px;
+}
+select {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+  border: solid purple 2.5px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: all ease-out 200ms;
+}
+select:hover {
+  background-color: purple;
+  color: white;
+  transition: all ease-in 200ms;
+}
+select option {
+  text-align: center;
+}
+footer {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+a {
+  font-size: 18px;
+  font-weight: bold;
+}
+.container {
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  margin-top: 40px;
+  padding: 25px;
+  box-shadow: 1px 1px 40px 7px rgba(46, 2, 46, 0.8);
+  -moz-box-shadow: 1px 1px 40px 7px rgba(46, 2, 46, 0.8);
+  box-shadow: 1px 1px 40px 7px rgba(46, 2, 46, 0.8);
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed grey;
+  padding: 15px;
+}
+.time-periods {
+  display: inline;
+  font-size: small;
+  vertical-align: middle;
+}
+.city-timezone {
+  font-size: 35px;
+  font-weight: bold;
+}
+.city-date {
+  opacity: 0.7;
+}
+.city:last-child {
+  border: none;
+}
