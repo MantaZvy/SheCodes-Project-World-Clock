@@ -56,7 +56,8 @@ function selectedCity(event) {
   <div class="city-timezone">${cityTime.format(
     "HH:mm:ss [<small>]A[</small>]"
   )}</div>
-    </div>`;
+    </div>
+    <a href="index.html">All Cities</a>`;
 }
 
 updateTime();
