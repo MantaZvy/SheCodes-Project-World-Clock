@@ -38,7 +38,6 @@ function updateTime() {
       .format("HH:mm:ss [<small>]A[</small>]")}`;
   }
 }
-
 //Dropdown Select
 function selectedCity(event) {
   let cityTimezone = event.target.value;
